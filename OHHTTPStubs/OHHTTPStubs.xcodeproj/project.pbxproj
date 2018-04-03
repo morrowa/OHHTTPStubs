@@ -166,6 +166,10 @@
 		EAA4369E1BE1598D000E9E99 /* OHHTTPStubs+Mocktail.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6DB84E1B763B7A00FCF855 /* OHHTTPStubs+Mocktail.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA4369F1BE1598D000E9E99 /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 095B1AD31AE30BA7009D1B56 /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA436A01BE1598D000E9E99 /* OHHTTPStubsUmbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09199FCC1BD973800014376D /* OHHTTPStubsUmbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F7305D20740DD900B5CB1E /* RedirectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7305C20740DD900B5CB1E /* RedirectTests.m */; };
+		F7F7305E20740DD900B5CB1E /* RedirectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7305C20740DD900B5CB1E /* RedirectTests.m */; };
+		F7F7305F20740DD900B5CB1E /* RedirectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7305C20740DD900B5CB1E /* RedirectTests.m */; };
+		F7F7306020740DD900B5CB1E /* RedirectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7305C20740DD900B5CB1E /* RedirectTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -286,6 +290,7 @@
 		EA100AB71BE15BE400129352 /* OHHTTPStubs tvOS Fmk Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OHHTTPStubs tvOS Fmk Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9D27221BE15C740078CAA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EAA436A51BE1598D000E9E99 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F7305C20740DD900B5CB1E /* RedirectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedirectTests.m; sourceTree = "<group>"; };
 		F976A15FC6C27BA51150B691 /* Pods-TestingPods-OHHTTPStubs iOS Fmk Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingPods-OHHTTPStubs iOS Fmk Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestingPods-OHHTTPStubs iOS Fmk Tests/Pods-TestingPods-OHHTTPStubs iOS Fmk Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FADAD1A74682F410A97EE06F /* Pods-TestingPods-OHHTTPStubs Mac Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingPods-OHHTTPStubs Mac Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestingPods-OHHTTPStubs Mac Tests/Pods-TestingPods-OHHTTPStubs Mac Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -524,6 +529,7 @@
 				0959814D1980668E00807DBE /* TimingTests.m */,
 				0959814E1980668E00807DBE /* WithContentsOfURLTests.m */,
 				095925D51BAEC00200DD7F0B /* SwiftHelpersTests.swift */,
+				F7F7305C20740DD900B5CB1E /* RedirectTests.m */,
 			);
 			path = "Test Suites";
 			sourceTree = "<group>";
@@ -1141,6 +1147,7 @@
 				0959818D1980682E00807DBE /* TimingTests.m in Sources */,
 				221C34A51B0CCF0600FCA8FF /* OHPathHelpersTests.m in Sources */,
 				0959818A1980682E00807DBE /* NSURLConnectionDelegateTests.m in Sources */,
+				F7F7305D20740DD900B5CB1E /* RedirectTests.m in Sources */,
 				0959818E1980682E00807DBE /* WithContentsOfURLTests.m in Sources */,
 				095981881980682800807DBE /* AFNetworkingTests.m in Sources */,
 				1D0F8E7E1B6E31850049A7D2 /* MocktailTests.m in Sources */,
@@ -1160,6 +1167,7 @@
 				095925D61BAEC00200DD7F0B /* SwiftHelpersTests.swift in Sources */,
 				093442E51B80EC4A00A91535 /* WithContentsOfURLTests.m in Sources */,
 				093442E61B80EC4A00A91535 /* AFNetworkingTests.m in Sources */,
+				F7F7305E20740DD900B5CB1E /* RedirectTests.m in Sources */,
 				093442E71B80EC4A00A91535 /* MocktailTests.m in Sources */,
 				093442E81B80EC4A00A91535 /* NSURLSessionTests.m in Sources */,
 				093442E91B80EC4A00A91535 /* NSURLConnectionTests.m in Sources */,
@@ -1194,6 +1202,7 @@
 				0501A1A91C63E64600B120AE /* SwiftHelpersTests.swift in Sources */,
 				221C34A91B0CCFF200FCA8FF /* OHPathHelpersTests.m in Sources */,
 				095981F419806AA200807DBE /* WithContentsOfURLTests.m in Sources */,
+				F7F7305F20740DD900B5CB1E /* RedirectTests.m in Sources */,
 				095981EF19806AA200807DBE /* NilValuesTests.m in Sources */,
 				094906DB1B7F527A00B047DA /* AFNetworkingTests.m in Sources */,
 				095981F219806AA200807DBE /* NSURLSessionTests.m in Sources */,
@@ -1228,6 +1237,7 @@
 				EA9D27311BE15CB50078CAA0 /* SwiftHelpersTests.swift in Sources */,
 				EA9D272E1BE15CB50078CAA0 /* OHPathHelpersTests.m in Sources */,
 				EA9D272F1BE15CB50078CAA0 /* TimingTests.m in Sources */,
+				F7F7306020740DD900B5CB1E /* RedirectTests.m in Sources */,
 				EA9D272C1BE15CB50078CAA0 /* NSURLConnectionTests.m in Sources */,
 				EA9D27281BE15CB50078CAA0 /* AFNetworkingTests.m in Sources */,
 				EA9D27291BE15CB50078CAA0 /* MocktailTests.m in Sources */,
